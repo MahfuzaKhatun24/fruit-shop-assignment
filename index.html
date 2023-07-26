@@ -7,6 +7,7 @@
     <!--tailwin and daisy ui-->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css"
 <!--font awsum-->
 <script src="https://kit.fontawesome.com/b68e3a3b38.js" crossorigin="anonymous"></script>
 </head>
@@ -26,7 +27,7 @@
         </ul>
       </div>
     </div>
-    <div class="navbar-center items-center flex gap-4">
+    <div class="navbar-center items-center flex flex-col md:flex-col-2 gap-4">
       <div class="w-12  h-16">
           <img src="images/logo.png" alt=""></div>
     <div class="font-bold text-white"> <h3>Fruit Burst</h3></div>
@@ -43,9 +44,58 @@
     </div>
   </div>
    </header> 
-
+<!--navbar end-->
    <main>
-
+<!--banner section-->
+<section class="mx-20 mb-32">
+    <div class="hero min-h-screen"
+     style="background-image: url(images/banner1.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-4xl font-bold text-white">Exotic tastes at your <br>
+                doorstep </h1>
+            <p class="mb-5 text-white">We supply highly quality organic products</p>
+            
+            <button class="btn btn-primary bg-[#F85559] rounded-xl text-white">Shop Now</button>
+            
+    
+          </div>
+      </div>
+    </div>
+    <div class=" relative -mt-96">
+      <div class="absolute">
+        <button class="btn btn-circle bg-black ">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="btn btn-circle bg-black ">
+            <i class="fa-solid fa-chevron-left"></i> 
+          </button>
+      </div>
+  </div>
+</section>
+<!--card section-->
+<section class=" pt-20 my-20 mx-72 items-center text-center ">
+    <div class="pt-20 my-20 flex justify-center bg-blend-overlay text-center  bg-white shadow-xl relative">
+        
+       <div class="items-center pb-20">
+        <img src="images/fruit1.png" alt="">
+        <p>Strawberry</p>
+       </div> 
+       <div>
+        <img src="images/fruit2.png" alt="">
+        <p>Strawberry</p>
+       </div> 
+       <div>
+        <img src="images/fruit3.png" alt="">
+        <p>Strawberry</p>
+       </div> 
+       <div>
+        <img src="images/fruit4.png" alt="">
+        <p>Strawberry</p>
+       </div> 
+    </div>
+</section>
    </main>
    <footer>
 
